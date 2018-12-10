@@ -39,3 +39,14 @@ function binarySearch(array, key) {
         return -1;
     }
 }
+
+// Quadratic time => O(n^2) || O(a*b)
+const boxes = [1,2,3,4,5,6];
+
+(function logAllPairs(array) {
+  for (let i = 0; i < array.length; i++){
+    for (let j = 0; j < array.length; j++) {
+      console.log(array[i], array[j])
+      }
+    }
+ })(boxes);
